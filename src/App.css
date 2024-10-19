@@ -1,42 +1,32 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Estilos para el nav */
+nav {
+  background-color: #4f46e5; /* Fondo de la barra de navegación */
+  padding: 1rem; /* Espaciado interno */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav ul {
+  list-style: none; /* Quitar los puntos de la lista */
+  display: flex; /* Disposición horizontal de los elementos */
+  justify-content: center; /* Centrar los elementos */
+  gap: 1.5rem; /* Separación entre los elementos */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav li {
+  display: inline-block; /* Disposición en línea de los elementos */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav a {
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  color: white; /* Color de texto blanco */
+  font-size: 1rem; /* Tamaño de fuente */
+  font-weight: 600; /* Peso de la fuente */
+  padding: 0.5rem 1rem; /* Espaciado interno en los enlaces */
+  border-radius: 0.375rem; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave para el hover */
 }
 
-.card {
-  padding: 2em;
+nav a:hover {
+  background-color: #6366f1; /* Cambiar el fondo al pasar el ratón */
+  color: #e0e7ff; /* Cambiar el color del texto al pasar el ratón */
 }
 
-.read-the-docs {
-  color: #888;
-}
