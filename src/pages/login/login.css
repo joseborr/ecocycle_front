@@ -1,0 +1,81 @@
+/* Login.css */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9fafb;
+    padding: 3rem 1rem;
+  }
+  
+  .login-form {
+    background-color: #1f2937; /* Un gris más claro que el fondo */
+    padding: 2rem;
+    border-radius: 0.5rem; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #1f2937;
+  }
+  
+  .form {
+    margin-top: 2rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-field {
+    background-color: #111827; /* Fondo oscuro, pero no tanto como el fondo principal */
+    color: #e5e7eb; /* Texto más claro */
+    border: 1px solid #4b5563; /* Borde más claro */
+  }
+  
+  .input-field:focus {
+    border-color: #6366f1; /* Cambiar el borde cuando el campo está enfocado */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5); /* Sombras para indicar el foco */
+  }
+  
+  .login-button {
+    background-color: #4f46e5; /* Un morado más claro */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #6366f1; /* Cambiar color al pasar el ratón */
+  }
+  
+  .login-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5);
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
